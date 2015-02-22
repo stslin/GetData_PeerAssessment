@@ -1,0 +1,136 @@
+# Code Book
+
+## Subject and Activity
+
+These variables identify the unique subject/activity pair the variables relate to:
+
+- SUBJECT_ID: integer Subject ID
+- ACTIVITY_NAME: string activity name that can consist one of the following acitivites:
+  - WALKING
+  - WALKING_UPSTAIRS
+  - WALKING_DOWNSTAIRS
+  - SITTING
+  - STANDING
+  - LAYING
+
+## Measurement Means
+
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
+
+- Time domain body acceleration mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanTimeOfBodyAccelerometerX
+    - MeanTimeOfBodyAccelerometerY
+    - MeanTimeOfBodyAccelerometerZ
+  - Standard Deviation
+    - SDTimeOfBodyAccelerometerX 
+    - SDTimeOfBodyAccelerometerY
+    - SDTimeOfBodyAccelerometerZ
+- Time domain gravity acceleration mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanTimeOfGravityAccelerometerX
+    - MeanTimeOfGravityAccelerometerY
+    - MeanTimeOfGravityAccelerometerZ
+  - Standard Deviation
+    - SDTimeOfGravityAccelerometerX
+    - SDTimeOfGravityAccelerometerY
+    - SDTimeOfGravityAccelerometerZ
+- Time domain body jerk mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanJerkTimeOfBodyAccelerometerX
+    - MeanJerkTimeOfBodyAccelerometerY
+    - MeanJerkTimeOfBodyAccelerometerZ
+  - Standard Deviation
+    - SDJerkTimeOfBodyAccelerometerX
+    - SDJerkTimeOfBodyAccelerometerY
+    - SDJerkTimeOfBodyAccelerometerZ
+- Time domain gyroscope mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanTimeOfGyroscopeX
+    - MeanTimeOfGyroscopeY
+    - MeanTimeOfGyroscopeZ
+  - Standard Deviation
+    - SDTimeOfGyroscopeX
+    - SDTimeOfGyroscopeY
+    - SDTimeOfGyroscopeZ
+- Time domain gyroscope jerk mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanJerkTimeOfGyroscopeX
+    - MeanJerkTimeOfGyroscopeY"
+    - MeanJerkTimeOfGyroscopeZ"
+  - Standard Deviation
+    - SDJerkTimeOfGyroscopeX
+    - SDJerkTimeOfGyroscopeY
+    SDJerkTimeOfGyroscopeZ
+- Time domain body acceleration magnitude mean and standard deviation:
+  - Mean
+    - MeanTimeMagnitudeOfBodyAccelerometer
+  - Standard Deviation
+    - SDTimeMagnitudeOfBodyAccelerometer
+- Time domain gravity acceleration magnitude mean and standard deviation:
+  - Mean
+    - MeanTimeMagnitudeOfGravityAccelerometer
+  - Standard Deviation
+    - SDTimeMagnitudeOfGravityAccelerometer
+- Time domain body jerk magnitude mean and standard deviation:
+  - Mean
+    - MeanJerkTimeMagnitudeOfBodyAccelerometer
+  - Standard Deviation
+    - SDJerkTimeMagnitudeOfBodyAccelerometer
+- Time domain gyroscope magnitude mean and standard deviation:
+  - Mean
+    - MeanTimeMagnitudeOfGyroscope
+  - Standard Deviation
+    - SDTimeMagnitudeOfGyroscope
+- Time domain gyroscope jerk magnitude mean and standard deviation:
+  - Mean
+    - MeanJerkTimeMagnitudeOfGyroscope
+  - Standard Deviation
+    - SDJerkTimeMagnitudeOfGyroscope
+- Frequency domain body acceleration mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanFreqOfBodyAccelerometerX
+    - MeanFreqOfBodyAccelerometerY
+    - MeanFreqOfBodyAccelerometerZ
+  - Standard Deviation
+    - SDFreqOfBodyAccelerometerX
+    - SDFreqOfBodyAccelerometerY
+    - SDFreqOfBodyAccelerometerZ
+- Frequency domain body jerk mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanJerkFreqOfBodyAccelerometerX
+    - MeanJerkFreqOfBodyAccelerometerY
+    - MeanJerkFreqOfBodyAccelerometerZ
+  - Standard Deviation
+    - SDJerkFreqOfBodyAccelerometerX
+    - SDJerkFreqOfBodyAccelerometerY
+    - SDJerkFreqOfBodyAccelerometerZ
+- Frequency domain gyroscope mean and standard deviation along X, Y, and Z:
+  - Mean
+    - MeanFreqOfGyroscopeX
+    - MeanFreqOfGyroscopeY
+    - MeanFreqOfGyroscopeZ
+  - Standard Deviation
+    - SDFreqOfGyroscopeX
+    - SDFreqOfGyroscopeY
+    - SDFreqOfGyroscopeZ
+- Frequency domain body acceleration magnitude mean and standard deviation:
+  - Mean
+    - MeanFreqMagnitudeOfBodyAccelerometer
+  - Standard Deviation
+    - SDFreqMagnitudeOfBodyAccelerometer
+- Frequency domain body jerk magnitude mean and standard deviation:
+  - Mean
+    - MeanJerkFreqMagnitudeOfBodyAccelerometer
+  - Standard Deviation
+    - SDJerkFreqMagnitudeOfBodyAccelerometer
+- Frequency domain gyroscope magnitude mean and standard deviation:
+  - Mean
+    - MeanFreqMagnitudeOfGyroscope
+  - Standard Deviation
+    - SDFreqMagnitudeOfGyroscope
+- Frequency domain gyroscope jerk magnitude mean and standard deviation:
+  - Mean
+    - MeanJerkFreqMagnitudeOfGyroscope
+  - Standard Deviation
+    - SDJerkFreqMagnitudeOfGyroscope
